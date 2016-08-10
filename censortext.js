@@ -9,12 +9,13 @@ function censor(inStr) {
     }
     return inStr;
 }
-function addCensoredWord(word) {
-    customCensoredWord.push(word);
-}
 function getCensoredWord() {
     return censoredWord.concat(customCensoredWord);
 }
-exports.censor=censor;
-exports.censoredWord=addCensoredWord;
-exports.customCensoredWord=getCensoredWord;
+function addCensoredWord(word) {
+    customCensoredWord.push(word);
+}
+
+module.exports.censor=censor;
+module.exports.censoredWord=addCensoredWord;
+module.exports.customCensoredWord=getCensoredWord;

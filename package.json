@@ -1,12 +1,12 @@
 {
     "author": "Mohamed DIABY",
-    "name": "md-censorifys",
-    "version": "0.1.1",
+    "name": "md-censorify",
+    "version": "0.1.2",
     "description": "Censors words out of text",
     "main": "censortext",
     "repository": {
       "type": "git",
-      "url": "https://github.com/laminediabson/censorify"  
+      "url": "https://github.com/laminediabson/md-censorify"  
     },
     "keywords": [
       "censor",
